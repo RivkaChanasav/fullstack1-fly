@@ -1,0 +1,60 @@
+body{
+    background-image: url(shy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.big{
+    width: 25%;
+    background-color: rgba(173, 216, 230, 0.316);
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-left:37% ;
+    margin-right: 37%;
+}
+input{
+    width: 70%;
+}
+.shem , .tz{
+    margin-left: 15%;
+    font-size: x-large;
+    width: 100%;
+}
+.koteret{
+    background-color: white;
+    text-align: center;
+    color: rgb(2, 13, 167);
+}
+.blue{
+    background-color: rgb(3, 3, 128);
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: large;
+}
+@media (max-width:500px){
+    body{
+       height: 1000px;
+    }
+    .big{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        hi
+    }
+    .shem , .tz{
+        font-size: small;
+    }
+}
+@media (max-width:300px){
+    body{
+       height: 1000px;
+    }
+    .shem , .tz{
+        font-size: x-small;
+    }
+}
+
+

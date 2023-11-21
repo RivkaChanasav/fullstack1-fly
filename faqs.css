@@ -1,0 +1,50 @@
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.suit{
+    width: 100px;
+}
+.navv{
+    background-color: gainsboro;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+main{
+padding-left: 15%;
+padding-right: 15%;
+}
+
+.blue{
+    color: darkblue;
+    font-size: xxx-large;
+}
+
+footer{
+
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    font-size: larger;
+}
+@media (max-width:800px){
+    a{
+        font-size: medium;
+    }
+}
